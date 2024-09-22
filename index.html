@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iti project</title>
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Tac+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Font  -->
+    <!-- wow css  -->
+    <link rel="stylesheet" href="css/wow.css" />
+    <!-- animate css  -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- fontawesome css  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- mdbootstrap css  -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          data-mdb-collapse-init
+          class="navbar-toggler"
+          type="button"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+              src="img/klassy-logo.png"
+              height="40"
+              width="100"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselMaterialStyle">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#fav">Fav</a>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+
+          <!-- Notifications -->
+          <div class="dropdown">
+            <a
+              data-mdb-dropdown-init
+              class="text-reset me-3 dropdown-toggle hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger"
+                >1</span
+              >
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <li>
+                <a class="dropdown-item" href="#">Some news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Another news</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a
+              data-mdb-dropdown-init
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                class="rounded-circle"
+                height="25"
+                alt="Black and White Portrait of a Man"
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuAvatar"
+            >
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- start header section -->
+    <!-- Carousel wrapper -->
+    <div
+      id="carouselMaterialStyle"
+      class="carousel slide carousel-fade"
+      data-mdb-ride="carousel"
+      data-mdb-carousel-init
+    >
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselMaterialStyle"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselMaterialStyle"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselMaterialStyle"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner rounded-5 shadow-4-strong">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <img
+            src="img/slider-image1.jpg"
+            class="d-block w-100 slider"
+            alt="Sunset Over the City"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="font-italic header-color">klassy</h5>
+            <p>Here you can find most delicious food in the world</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="img/slider-image3.jpg"
+            class="d-block w-100 slider"
+            alt="Canyon at Nigh"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="font-italic header-color">klassy</h5>
+            <p>Here you can find most delicious food in the world</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="img/testimonial-bg.jpg"
+            class="d-block w-100 slider"
+            alt="Cliff Above a Stormy Sea"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="font-italic header-color">klassy</h5>
+            <p>Here you can find most delicious food in the world</p>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-mdb-target="#carouselMaterialStyle"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-mdb-target="#carouselMaterialStyle"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel wrapper -->
+     <!-- end header section -->
+
+    <!-- start about section -->
+
+    <div class="container my-3 text-center" id="about">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="header-color">The klassy history</h2>
+          <p class="text-muted">More than 25+ years of experience</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section class="mb-1">
+        <div class="row gx-lg-5">
+          <div class="col-md-4 mb-5">
+            <div class="d-flex align-items-start">
+              <div class="flex-shrink-0">
+                <div class="p-3 badge-primary rounded-4">
+                  <i class="fa-solid fa-calendar-days"></i>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-4">
+                <p class="fw-bold mb-1">30K+ Happy Clients Clients</p>
+                <p class="text-muted mb-1">
+                  Most Experienced Furniture Sellers At Your Door Step
+                </p>
+
+                <small><a href="">Learn more</a></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-5">
+            <div class="d-flex align-items-start">
+              <div class="flex-shrink-0">
+                <div class="p-3 badge-primary rounded-4">
+                  <i class="fa-solid fa-truck"></i>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-4">
+                <p class="fw-bold mb-1">Fast Delivery</p>
+                <p class="text-muted mb-1">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <small><a href="">Learn more</a></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-5">
+            <div class="d-flex align-items-start">
+              <div class="flex-shrink-0">
+                <div class="p-3 badge-primary rounded-4">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-4">
+                <p class="fw-bold mb-1">20+ Years Experience</p>
+                <p class="text-muted mb-1">
+                  Most Experienced Furniture Sellers At Your Door Step
+                </p>
+                <small><a href="">Learn more</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 p-1 mt-1 font-monospace">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            velit culpa provident ducimus in eius dolore aliquid tenetur ad
+            quidem? Totam nisi dignissimos aliquam quos minima accusamus laborum
+            incidunt quaerat, illum doloribus sunt saepe repellendus! Amet
+            molestiae fugit repellendus aspernatur quia vitae earum harum
+            dolorem nesciunt quod consequatur perferendis dolor blanditiis, ad
+            cupiditate necessitatibus! earum harum dolorem nesciunt quod
+            consequatur perferendis dolor blanditiis, ad cupiditate
+            necessitatibus!
+          </p>
+          <button class="text-uppercase btn btn-dark btn-format mb-1">
+            learn more
+          </button>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <img src="img/tabs-image-02.jpg" class="h-75 w-75" />
+        </div>
+      </div>
+    </div>
+
+    <!-- end about section -->
+
+    <!-- start menu section -->
+
+    <div class="container text-center" id="menu">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Our special menu</h2>
+          <hr class="line" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/food7.jpeg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Soup<i
+                  class="format-icon fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/food8.jpeg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Sweet<i
+                  class="format-icon fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/food9.jpeg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Sweet<i
+                  class="format-icon-fav fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/food10.jpeg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Salad<i
+                  class="format-icon-not-fav fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/menu-image4.jpg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Soup<i
+                  class="format-icon-not-fav fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/menu-image5.jpg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Salad<i
+                  class="format-icon-not-fav fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/menu-image6.jpg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Salad<i
+                  class="format-icon-not-fav fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 shadow-sm mb-2">
+          <div class="card wow animate__fadeInUp">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img src="img/img-3x2-3.jpg" class="img-fluid" />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.15)"
+                ></div>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Salad<i
+                  class="format-icon-not-fav fa-solid fa-star fa-2xs"
+                  style="color: #ffd43b"
+                ></i
+                ><i class="fa-solid fa-star fa-2xs" style="color: #ffd43b"></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-dark btn-block btn-content"
+                data-mdb-ripple-init
+                >Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end menu section -->
+
+    <!-- start fav section -->
+    <div class="container text-center mt-2" id="fav">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Your Fav <i
+            class="fa-solid fa-heart fa-xs"
+            style="color: #f42a2a"
+          ></i></h2>
+          <hr class="line" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-xs-1 scale-img">
+          <div class="card">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img
+                src="img/food12.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Townhouses and Skyscrapers"
+              />
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Pizza <i
+                  class="icon-fav fa-solid fa-heart fa-xs"
+                  style="color: #f42a2a"
+                ></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-danger btn-block btn-fav"
+                data-mdb-ripple-init
+                >See more
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-1 scale-img">
+          <div class="card">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img
+                src="img/food9.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Townhouses and Skyscrapers"
+              />
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Sweet<i
+                  class="icon-fav fa-solid fa-heart fa-xs"
+                  style="color: #f42a2a"
+                ></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-danger btn-block btn-fav"
+                data-mdb-ripple-init
+                >See more
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 scale-img">
+          <div class="card">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img
+                src="img/food11.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Townhouses and Skyscrapers"
+              />
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Meat <i
+                  class="icon-fav fa-solid fa-heart fa-xs"
+                  style="color: #f42a2a"
+                ></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-danger btn-block btn-fav"
+                data-mdb-ripple-init
+                >See more
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-1 scale-img">
+          <div class="card">
+            <div
+              class="bg-image hover-overlay"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="light"
+            >
+              <img
+                src="img/gallery5.jpeg"
+                class="img-fluid rounded-circle"
+                alt="Townhouses and Skyscrapers"
+              />
+              
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Salad<i
+                  class="icon-fav fa-solid fa-heart fa-xs"
+                  style="color: #f42a2a"
+                ></i>
+              </h5>
+              <h6 class="card-text">
+                price: <del>$122</del><span class="mx-2 text-warning">$77</span>
+              </h6>
+              <a
+                href="#!"
+                class="btn btn-outline-danger btn-block btn-fav"
+                data-mdb-ripple-init
+                >See more
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end fav section -->
+
+    <!-- start contact section -->
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="card mb-3 mx-2 px-2">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="img/contact.jpeg"
+                alt="Trendy Pants and Shoes"
+                class="img-fluid rounded-start h-100"
+              />
+            </div>
+            <div class="col-md-8 px-4">
+              <h3 class="text-center text-muted mt-2" id="contact">Contact us</h3>
+              <form>
+                <!-- Name input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="text" id="form4Example1" class="form-control" />
+                  <label class="form-label" for="form4Example1">Name</label>
+                </div>
+              
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="email" id="form4Example2" class="form-control" />
+                  <label class="form-label" for="form4Example2">Email address</label>
+                </div>
+              
+                <!-- Message input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                  <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                  <label class="form-label" for="form4Example3">Message</label>
+                </div>
+              
+              
+              
+                <!-- Submit button -->
+                <button data-mdb-ripple-init type="button" class="btn btn-dark btn-block mb-4">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end contact section -->
+
+    <!-- start footer section -->
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4 wow animate__fadeInLeftBig">
+          <!-- Facebook -->
+          <a
+          data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body" href="#">Klassy.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- end footer section -->
+
+
+
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- wow js -->
+    <!-- fontawesome js  -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery js  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js  -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- mdb js  -->
+    <script src="js/mdb.umd.min.js"></script>
+    <!-- main js  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
